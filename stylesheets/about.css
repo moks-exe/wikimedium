@@ -1,0 +1,92 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+body{
+  width: 1440px;
+  margin: 0 auto;
+  background: white;
+  height: 3252px;
+  display: block;
+  position: relative;
+}
+body::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: url('images/1440.jpg');
+  height: 3252px;
+  display: block;
+  opacity: .2;
+}
+html {
+  position: relative;
+  height: 100%;
+}
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-berween;
+      -ms-flex-pack: space-berween;
+          justify-content: space-berween;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+section div {
+  width: 50%;
+  oweflow: hidden;
+}
+section h1 {
+  font-size: 40px;
+  margin-top: 85px;
+  margin-bottom: 38px;
+}
+section p {
+  font-size: 26px;
+  line-height: 1.5;
+}
+.text {
+  width: 520px;
+  margin: 0 auto;
+}
+.textik {
+  width: 520px;
+  margin-left: 30px;
+}
+
+.one {
+  margin-top: 62px;
+}
+.two {
+  margin-top: 48px;
+}
+.three {
+  margin-top: 82px;
+}
+.kartinka{
+  margin-top: 95px;
+}
+.bottom_block {
+  width:800px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 45px;
+}
+section a {
+  border: 1px solid black;
+  margin-top: 90px;
+}
+.btn {
+  padding: 15px 40px;
+  background: white;
+  border-radius: 4px;
+  display: inline-block;
+
+}
